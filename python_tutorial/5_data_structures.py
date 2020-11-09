@@ -39,4 +39,8 @@ a ^ b # letters in a or b but not both
 # Dictionaries
 knights = {'gallahad': 'the pure', 'robin': 'the brave'}
 for k, v in knights.items(): # Iterating through key and value
-     print(k, v)
+    print(k, v)
+
+# or
+for i, v in enumerate(knights):
+    print(i, v)
